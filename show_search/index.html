@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>带关闭按钮的搜索框</title>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="search-wrapper">
+    <div class="input-holder">
+        <input type="text" class="search-input" placeholder="搜索什么你说了算" />
+        <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+    </div>
+    <span class="close" onclick="searchToggle(this, event);"></span>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
